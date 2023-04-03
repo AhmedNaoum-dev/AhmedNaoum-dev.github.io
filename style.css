@@ -1,32 +1,52 @@
+html{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
 body{
-    background-color: rgb(224, 235, 238);
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: azure;
+    
 }
 .qr{
+    position: relative;
+    top: 150px;
     text-align: center;
     background-color: rgb(255, 255, 255);
-    border-radius: 3px;
-    width: 20%;
-    margin: 50px auto;
-    padding-bottom: 2px;
+    border-radius: 10px;
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    padding: 15px;
     box-shadow: 2px 2px 10px rgb(206, 206, 206);
 }
 .qr img{
-    width: 51px;
-    margin:3px 3px 0;
-    border-radius: 3px;
-    
+    width: 15vw;
+    border-radius: inherit;
+        
 }
-.qr h5{
-    font-size: 3.5px;
+.qr .main{
+    font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 600;
-    margin: 0 5px;
-    font-weight: bolder;
+    font-weight: bold;
+    margin: 20px auto;
+    font-weight: 800;
+    width: 14vw;
+    /* height: 7vh; */
+    overflow: hidden;
     
 }
-.qr p{
-    font-size: 3px;
-    font-weight: 600;
-    margin: 2px 4px;
-    color: rgb(170, 168, 168);    
+.qr .p{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin: auto;
+    margin-bottom: 17px;
+    width: 14vw;
+    /* height: 6vh; */
+    overflow: hidden;
+    text-decoration-color: rgb(208, 207, 207);
+    
 }
